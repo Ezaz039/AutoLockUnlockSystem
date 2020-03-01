@@ -2,6 +2,9 @@
 
 Python code for getting the RSSI value of a Bluetooth device by address. Based on the value returned, can determine the proximity of the device.
 
+## Instruction
+This model will check authentication for each bluetooth mac address for 3 seconds, if it finds any registered device within given range then our seystem will automatically unlock otherwise it will be in lock state.
+
 ## Requirements
 
 This code requires the `bluetooth` and `python-bluez` modules to be installed. On Ubuntu/Debian systems, this can usually be done with the following commands:
