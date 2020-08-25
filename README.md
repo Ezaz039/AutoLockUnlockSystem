@@ -9,8 +9,8 @@ This model will check authentication for each bluetooth mac address for 3 second
 
 This code requires the `bluetooth` and `python-bluez` modules to be installed. On Ubuntu/Debian systems, this can usually be done with the following commands:
 
-sudo apt-get install bluetooth
-sudo apt-get install python-bluez
+'sudo apt-get install bluetooth'
+'sudo apt-get install python-bluez'
 
 *Note: Your system must also have a Bluetooth adapter.
 
